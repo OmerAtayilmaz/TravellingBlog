@@ -301,6 +301,9 @@ body {
 	.carousel-item p {
 		font-size:0.8rem !important;
 	}
+	#carouselExampleIndicators{
+		height:24em !important;
+	}
 }
 /*Cards */
 
