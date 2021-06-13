@@ -1,0 +1,10 @@
+1-Font Awesome ile navbara icon ekle
+2-Join Us sayfalarını ekle!
+3-Slider'ı responsive yap - mediaQuery ile-
+4-Sliderdaki buttonlara scroll ekle
+5-Cardlardaki readmore tıklandıktan sonra responsive bir şekilde makale görünsün
+6-Whatsabı import et
+7-Travelling packagesta pricing kısmı açılır ve kart bilgilerini girersin.
+8-Map ekle*Gelişmiş*
+9-ContactUS'a tıklandığında mail açılsın.
+10-NodeJS ile bütünleştir!
