@@ -2,7 +2,7 @@
 -Join Us sayfalarını ekle!+++++++++++++++++
 -Slider'ı responsive yap - mediaQuery ile-+++++++++
 -Whatsabı import et++++++++++
--Cardlardaki readmore tıklandıktan sonra responsive bir şekilde makale görünsün
+-Cardlardaki readmore tıklandıktan sonra responsive bir şekilde makale görünsün++++++++++++++++++++
 -Travelling packagesta pricing kısmı açılır ve kart bilgilerini girersin.
 -Map ekle*Gelişmiş*
 -ContactUS'a tıklandığında mail açılsın.

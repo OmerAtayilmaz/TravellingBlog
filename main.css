@@ -372,19 +372,19 @@ body {
 	position: relative;
 	height: 100%;
 	width:100%;
-	background: url('https://images.pexels.com/photos/24698/pexels-photo-24698.jpg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
+	background: url('./assets/s1.jpeg');
 	background-size: 100% 100%;
 	background-position: center;
 	background-attachment: fixed;
 }
 #carouselExampleIndicators .carousel-inner .carousel-item:nth-child(2){
-	background: url('https://images.pexels.com/photos/7437939/pexels-photo-7437939.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
+	background: url('./assets/s2.jpeg');
 	background-size: 100% 100%;
 	background-position: center;
 	background-attachment: fixed;
 }
 #carouselExampleIndicators .carousel-inner .carousel-item:nth-child(3){
-	background: url('https://images.pexels.com/photos/7009483/pexels-photo-7009483.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
+	background: url('./assets/s3.jpg');
 	background-size: 100% 100%;
 	background-position: center;
 	background-attachment: fixed;
