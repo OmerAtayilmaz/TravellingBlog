@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--MAİN CSS-->
+    <link rel="stylesheet" href="main.css" type="text/css">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+    
+
+    <title>Travelling Blog</title>
+</head>
+<body>
+    <!--Navbar-->
+            <section id="home"></section>
+            <nav class="navbar navbar-expand-sm navbar-dark fixed-top">
+                <div class="container">
+                <!--Toggler button-->
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <a class="navbar-brand" href="#home"><i class="fas fa-lg fa-route mr-2"></i><b>Travelling Notes</b></a>
+                <div class="collapse navbar-collapse justify-content-end" id="collapsibleNavbar">
+                    <ul class=" navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#home">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#news">News</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#packages">Pricing</a>
+                        </li>
+                        <li class="nav-item ">
+                            <a class="nav-link " href="#contact">Contact us</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+                                Join Us!
+                            </a>
+                            <div class="dropdown-menu">
+                                <a class="dropdown-item" href="#">Sign In</a>
+                                <a class="dropdown-item" href="#">Sign Up</a>
+                            </div>
+                        </li>
+                    </ul>
+                   
+                </div>
+            </div>
+            </nav>
+           
+            <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                  <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                  <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                  <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                </ol>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                      <div class="info">
+                            <h1>SLIDE ONE</h1>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
+                            <button type="button" class="btn btn-outline-primary btn-custom">Join Us</button>
+                        </div>
+                  </div>
+                  <div class="carousel-item">
+                      <div class="info">
+                            <h1>SLIDE TWO</h1>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
+                            <button type="button" class="btn btn-outline-primary btn-custom">Read More!</button>
+
+                        </div>
+                  </div>
+                  <div class="carousel-item">
+                      <div class="info">
+                            <h1>SLIDE THREE</h1>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
+                            <button type="button" class="btn btn-outline-primary btn-custom">Booking!</button>
+                        </div>
+                  </div>
+                </div>
+                <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="sr-only">Next</span>
+                </a>
+              </div>
+          </div>
+      </div>
+      <!--Traveling notes-->
+      <section class="news py-5 px-4 bg-light" id="news">
+        <div class="py-3">
+            <h5 class="text-uppercase font-oswald font-size-16 text-muted">read</h5>
+            <h1 class="text-uppercase font-staat font-size-34">Latest news</h1>
+        </div>
+        <div class="row travelling-notes">
+            <div class="col-md-3 my-3">
+                <div class="card border-0  text-white" >
+                    <img src="./assets/news/01.jpg" class="card-img-top" alt="image_1">
+                    <div class="card-body">
+                    <p class="font-ram font-size-16 text-muted">in <b class="text-uppercase text-muted">Lifestyle</b></p>
+                      <h5 class="card-title font-ram">First Day</h5>
+                      <p class="card-text text-white-50">Fusce suscipit, ante a hendrerit ullamcorper, risus nisl cursus purus, sit amet viverra ante nulla vel justo.
+                        </p>
+                        <button type="button" class="btn btn-success float-right">Read more</button>
+                    </div>
+                  </div>
+            </div>            
+            <div class="col-md-3 my-3">
+                <div class="card border-0  text-white" >
+                    <img src="./assets/news/03.jpg" class="card-img-top" alt="image_1">
+                    <div class="card-body">
+                    <p class="font-ram font-size-16 text-muted">in <b class="text-uppercase text-muted">Lifestyle</b></p>
+                      <h5 class="card-title font-ram">First Day</h5>
+                      <p class="card-text text-white-50">Fusce suscipit, ante a hendrerit ullamcorper, risus nisl cursus purus, sit amet viverra ante nulla vel justo.
+                        </p>
+                        <button type="button" class="btn btn-success float-right">Read more</button>
+                    </div>
+                  </div>
+            </div>
+            <div class="col-md-3 my-3">
+                <div class="card border-0  text-white" >
+                    <img src="./assets/news/01.jpg" class="card-img-top" alt="image_1">
+                    <div class="card-body">
+                    <p class="font-ram font-size-16 text-muted">in <b class="text-uppercase text-muted">Lifestyle</b></p>
+                      <h5 class="card-title font-ram">First Day</h5>
+                      <p class="card-text text-white-50">Fusce suscipit, ante a hendrerit ullamcorper, risus nisl cursus purus, sit amet viverra ante nulla vel justo.
+                        </p>
+                        <button type="button" class="btn btn-success float-right">Read more</button>
+                    </div>
+                  </div>
+            </div>
+            <div class="col-md-3 my-3">
+                <div class="card border-0  text-white" >
+                    <img src="./assets/news/02.jpg" class="card-img-top" alt="image_1">
+                    <div class="card-body">
+                    <p class="font-ram font-size-16 text-muted">in <b class="text-uppercase text-muted">Lifestyle</b></p>
+                      <h5 class="card-title font-ram">First Day</h5>
+                      <p class="card-text text-white-50">Fusce suscipit, ante a hendrerit ullamcorper, risus nisl cursus purus, sit amet viverra ante nulla vel justo.
+                        </p>
+                        <button type="button" class="btn btn-success float-right">Read more</button>
+                    </div>
+                  </div>
+            </div>
+        </div>
+    </section>
+    
+    <!--packages-->
+    <section class="py-5" id="packages">
+        <div class="container my-3">
+            <h1 class="text-center text-muted">Travelling Packages</h1>
+            <div class="row products">
+                <div class="col-md-3  offset-md-1">
+                    <div class="card mb-4 border-0 shadow">
+                        <div class="card-body">
+                            <h4>Free</h4>
+                            <h4><span class="price-text">$0.00</span> /<small>mo</small></h4>
+                            <hr class="my-4 bg-white">
+                            <ul class="list-unstyled">
+                                <li class="py-1">
+                                    <i class="fa fa-check" aria-hidden="true"></i>
+                                    Following Blogs
+                                </li>
+                                <li class="py-1">
+                                    <i class="fa fa-check" aria-hidden="true"></i>
+                                    Limited Share
+                                </li>
+                                <li class="text-dark py-1">
+                                   <i class="fas fa-times"></i>
+                                    Post Blog
+                                </li>
+                                <li class="text-dark py-1">
+                                   <i class="fas fa-times"></i>
+                                    Unlimited Support
+                                </li>
+                                <li class="text-dark py-1">
+                                   <i class="fas fa-times"></i>
+                                    Share and Earn!
+                                </li>
+                                <li class="text-dark py-1">
+                                   <i class="fas fa-times"></i>
+                                    Travelling Draw
+                                </li>
+                                <li class="text-dark py-1">
+                                   <i class="fas fa-times"></i>
+                                    Travelling markets 18% off
+                                </li>
+                            </ul>
+                            <hr class="my-2 bg-white">
+                            <a href="#" class="btn btn-success btn-block py-2 px-5" id="package-free">
+                                Join Us
+                            </a>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="col-md-3 offset-md-1">
+                    <div class="card mb-4 border-0 shadow">
+                        <div class="card-body">
+                        <h4>Student</h4>
+                        <h4><span class="price-text">$6.99</span> /<small>mo</small></h4>
+                        <hr class="my-4 bg-white">
+                        <ul class="list-unstyled">
+                            <li class="py-1">
+                                <i class="fa fa-check" aria-hidden="true"></i>
+                               Following Blogs
+                            </li >
+                            <li class="py-1">
+                                <i class="fa fa-check" aria-hidden="true"></i>
+                                Unlimited Share
+                            </li >
+                            <li class="py-1">
+                                <i class="fa fa-check" aria-hidden="true"></i>
+                                Post Blog
+                            </li>
+                            <li class="py-1">
+                                <i class="fa fa-check" aria-hidden="true"></i>
+                                Unlimited Support
+                            </li>
+                            <li class="py-1">
+                                <i class="fa fa-check" aria-hidden="true"></i>
+                                Share and Earn!
+                            </li>
+                            <li class="text-dark py-1">
+                                <i class="fas fa-times"></i>
+                                Travelling Draw
+                            </li>
+                            <li class="text-dark py-1">
+                                <i class="fas fa-times"></i>
+                                Travelling markets 18% off
+                            </li>
+                        </ul>
+                        <hr class="my-2 bg-white">
+                        <a href="#" class="btn btn-success btn-block py-2 px-5" id="package-free">
+                                Join Us
+                        </a>
+                    </div>
+                    </div>
+                </div>
+                <div class="col-md-3 offset-md-1">
+                    <div class="card mb-4 border-0 shadow">
+                        <div class="card-body">
+                        <h4>Premium</h4>
+                        <h4><span class="price-text">$28.99</span> /<small>mo</small></h4>
+                        <hr class="my-4 bg-white">
+                        <ul class="list-unstyled">
+                            <li class="py-1">
+                                <i class="fa fa-check" aria-hidden="true"></i>
+                               Following Blogs
+                            </li>
+                            <li class="py-1">
+                                <i class="fa fa-check" aria-hidden="true"></i>
+                                Unlimited Share
+                            </li>
+                            <li class="py-1">
+                                <i class="fa fa-check" aria-hidden="true"></i>
+                                Post Blog
+                            </li>
+                            <li class="py-1">
+                                <i class="fa fa-check" aria-hidden="true"></i>
+                                Unlimited Support
+                            </li>
+                            <li class="py-1">
+                                <i class="fa fa-check" aria-hidden="true"></i>
+                                Share and Earn!
+                            </li>
+                            <li class="py-1">
+                                <i class="fa fa-check" aria-hidden="true"></i>
+                                Travelling Draw
+                            </li>
+                            <li class="py-1">
+                                <i class="fa fa-check" aria-hidden="true"></i>
+                                Travelling markets 18% off
+                            </li>
+                        </ul>
+                        <hr class="my-2 bg-white">
+                        <a href="#" class="btn btn-success btn-block py-2 px-5" id="package-free">
+                            Join Us
+                        </a>
+                        </div>
+                        </div>
+                </div>
+            </div>
+        </div>
+    </section>
+   
+
+    <!--About me-->
+    <!--Contact us-->
+    <!--Footer-->
+<section id="contact">
+    <footer id="footer" class="pt-5 px-3">
+        <div id="contact_us">
+            <div class="py-3 px-2">
+                <h5 class="text-uppercase font-oswald font-size-16 text-muted">Location</h5>
+                <h1 class="text-uppercase font-staat font-size-34">Contact Me</h1>
+            </div>
+            <div class="row py-5">
+                <div class="col-sm-6 py-4 px-4">
+                    <h6 class="text-uppercase font-ram font-size-16 text-dark">Ömer Atayilmaz lnc.</h6>
+                    <p class="font-ram w-50 font-size-16 text-black-50">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illum, assumenda atque delectus minima possimus dicta! Deserunt  </p>
+                    <p class="font-ram font-size-16 text-black-50 pt-3">PHONE: +1 999-999-9</p>
+                    <p class="font-ram font-size-16 text-black-50">FAX: +1 999-999-999</p>
+                    <p class="font-ram font-size-16 text-black-50">EMAIL: info@gmail.com</p>
+                    <p class="font-ram font-size-16 text-black-50">ADDRESS: San Diego, CA 94403, US.</p>
+                </div>
+                <div class="col-sm-6 py-4 px-4">
+                    <h6 class="text-uppercase font-ram font-size-16">Get in touch</h6>
+                    <form action="" class="py-3">
+                        <div class="row">
+                            <div class="col">
+                                <input type="text" class="form-control" id="name" placeholder="Name">
+                            </div>
+                            <div class="col">
+                                <input type="email" class="form-control" id="inputEmail4" placeholder="Email">
+                            </div>
+                        </div>
+                        <textarea name="message" id="textarea1" class="form-control my-4" cols="30" rows="3" placeholder="Message"></textarea>
+                        <button type="button" class="btn btn-success">Contact Us!</button>
+                    </form>
+                </div>
+            </div>
+            <div class="row bg-light py-5">
+                <div class="col-sm-4 my-5 text-center">
+                    <h6 class="font-ram font-size-16 text-black-50">&copy; 2020  TRAVELLING NOTES. All rights reserved</h6>
+                </div>
+                <div class="col-sm-4 my-4 text-center">
+                    <div class="footer-title text-center text-light">
+                        <a class="navbar-brand font-staat font-size-40 text-dark" href="#">TRAVELLING NOTES</a>
+                        <p class="description font-oswald font-size-16 text-black-50 text-uppercase">Ömer Atayilmaz</p>
+                    </div>
+                </div>
+                <div class="col-sm-4 my-5 text-center">
+                    <span class="mr-3"><i class="fa fa-2x fa-facebook-f"></i></span>
+                    <span class="mr-3"><i class="fa fa-2x fa-twitter"></i></span>
+                    <span class="mr-3"><i class="fa fa-2x fa-instagram"></i></span>
+                    <span class="mr-3"><i class="fa fa-2x fa-youtube"></i></span>
+                </div>
+            </div>
+        </div>
+    </footer>
+</section>
+<script src="a.js">
+
+</script>
+</body>
+</html>
