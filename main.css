@@ -1,6 +1,6 @@
   
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
-
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,800');
  :root{
     --bg-theme-dark:var(#00b712);
     --bg-theme:var(#52c234);
@@ -11,7 +11,9 @@
     --bg-black:#222;
 
 }
-
+*{
+	box-sizing: border-box;
+}
 body {
     font-family: 'Open Sans', sans-serif !important;
 	margin-top: 50px !important;
@@ -72,10 +74,224 @@ body {
 	}
 
 }
+
+
+/*Login systm*/
+#login_panels{
+	font-family:'Montserrat','sans-serif' !important;
+	background-color: #f6f5f7;
+	display:flex;
+	flex-direction:column;
+	justify-content:center;
+	align-items: center;
+	height:100vh;
+	
+}
+#login_panels h1{
+	font-weight: bold;
+	margin:0;
+}
+#login_panels p{
+	font-size:0.8em;
+	font-weight: 100;
+	line-height: 20px;
+	letter-spacing: 0.5px;
+	margin:20px 0 30px;
+}
+#login_panels span{
+	font-size:0.8em;
+}
+#login_panels a{
+	color:#333;
+	font-size:0.9em;
+	text-decoration: none;
+
+}
+#login_panels .container{
+	background:#fff;
+	border-radius: 10px;
+	box-shadow:0 14px 28px rgba(0,0,0,0.25),0 10px 10px rgba(0,0,0,0.22);
+	position:relative;
+	overflow: hidden;
+	width: 768px;
+	max-width: 100%;
+	min-height: 480px;
+}
+#login_panels form{
+	background:#fff;
+	display:flex;
+	flex-direction:column;
+	padding:0 50px;
+	height:100%;
+	justify-content:center;
+	align-items:center;
+	text-align:center;
+}
+
+
+#login_panels .social-container
+{
+	margin:20px 0;
+}
+#login_panels .social-container a {
+	border:1px solid #ddd;
+	border-radius:50%;
+	display:inline-flex;
+	justify-content: center;
+	margin:0 5px;
+	align-items: center;
+	height:40px;
+	width:40px;
+}
+
+#login_panels .form-container input{
+	background-color: #eee;
+	border:none;
+	padding:0.8em 0.9em;
+	margin:8px 0;
+	width:100%;
+}
+
+#login_panels button {
+	border-radius:1.2rem;
+	border:none;
+    background-image:linear-gradient(to right,#00b712,#00b712)  !important; 
+	color:#fff;
+	font-size:12px;
+	font-weight:bold;
+	padding:12px 45px;
+	letter-spacing: 1px;
+	text-transform:uppercase;
+	transition:transform 80ms ease-in;
+	border:1px solid #fff;
+}
+#login_panels button:active{
+	transform:scale(0.95);
+}
+#login_panels button:focus{
+	outline:none;/* dıştaki kare şeklinde çirkin kenarlıkları kaldırır */
+}
+#login_panels button.ghost{
+	background:transparent;
+	border-color:#fff;
+}
+#login_panels .form-container{
+	position:absolute;
+	top:0;
+	height:100%;
+	transition:all 0.6s ease-in-out;
+}
+
+#login_panels .sign-in-container {
+	left:0;
+	width:50%;
+	z-index:2;
+}
+
+#login_panels .sign-up-container{
+	left:0;
+	width:50%;
+	opacity:0;
+	z-index:1;
+}
+
+#login_panels .overlay-container{
+	position:absolute;
+	top:0;
+	left:50%;
+	width:50%;
+	height:100%;
+	overflow:hidden;
+	transition:transform 0.6s ease-in-out;
+	z-index:100;
+}
+#login_panels .overlay{
+	background: #ff416c;
+	background:linear-gradient(to right,#00b712,#00b712) no-repeat 0 0 /  cover  !important; 
+	color:#fff;
+	position:relative;
+	left:-100%;
+	height:100%;
+	width:200%;
+	transform:translateX(0);
+	transition:transform 0.6s ease-in-out;
+}
+
+#login_panels .overlay-panel {
+	position:absolute;
+	top:0;
+	display:flex;
+	flex-direction: column;
+	justify-content:center;
+	align-items: center;
+	padding:0 40px;
+	height:100%;
+	width:50%;
+	text-align: center;
+	transform:translateX(0);
+	transition:transform 0.6s ease-in-out;
+
+}
+
+#login_panels .overlay-right{
+	right:0;
+	transform:translateX(0);
+}
+
+#login_panels .overlay-left{
+	transform:translateX(-20%);
+}
+/*Animations*/
+
+/*Move signign to the right*/
+#login_panels .container.right-panel-active .sign-in-container{
+	transform:translateX(100%);
+}
+/*Move overlay to left*/
+#login_panels  .container.right-panel-active .overlay-container{
+	transform:translateX(-100%);
+}
+
+/*Brin sign up over sign in*/
+#login_panels .container.right-panel-active .sign-up-container{
+	transform: translateX(100%);
+	opacity:1;
+	z-index:5;
+}
+
+/*Move overlay back to right*/
+#login_panels .container.right-panel-active .overlay{
+	transform:translateX(50%);
+}
+#login_panels .container.right-panel-active .overlay-left{
+	transform:translateX(0);
+}
+#login_panels .container.right-panel-active .overlay-right{
+	transform:translateX(20%);
+}
+
+@media screen and (max-width:600px) {
+#login_panels h1{
+	font-size: 1.4em;
+}
+#login_panels button{
+	font-size: 0.6em;
+}
+#login_panels .social-container{
+	margin:0 5px;
+}
+#login_panels span{
+	font-size: 0.6rem;
+}
+#login_panels form a{
+	font-size: 0.8rem;
+}
+}
 /*Slider*/
 .carousel-container{
     background-image:linear-gradient(to right,#00b712,#00b712)  !important; 
     height: 150px;
+
 
 }
 /*Cards */
