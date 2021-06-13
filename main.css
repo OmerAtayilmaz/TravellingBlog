@@ -275,10 +275,10 @@ body {
 	font-size: 1.4em;
 }
 #login_panels button{
-	font-size: 0.6em;
+	font-size: 0.5em;
 }
 #login_panels .social-container{
-	margin:0 5px;
+	display: none;
 }
 #login_panels span{
 	font-size: 0.6rem;
@@ -293,6 +293,14 @@ body {
     height: 150px;
 
 
+}
+@media screen and (max-width:678px){
+	.carousel-item h1 {
+		font-size: 1.2rem !important;
+	}
+	.carousel-item p {
+		font-size:0.8rem !important;
+	}
 }
 /*Cards */
 
