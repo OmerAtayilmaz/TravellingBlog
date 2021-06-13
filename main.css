@@ -455,3 +455,44 @@ body {
         font-size: 22px;
     }
 }
+
+/*Reader*/
+.container-reader{
+	position:fixed;
+	top:120px;
+	left:25%;
+	height: 400px;
+	width:50%;
+	margin:0 auto;
+	z-index: 5;
+	border:1px solid #333;
+	background:var(--bg-black);
+	overflow:auto;
+	box-shadow: 5px 5px 30px #333;
+}
+.container-reader .jumbotron {
+	height:25%;
+	margin:12px;
+	box-shadow: 5px 5px 3px #999;
+    background-image:linear-gradient(to right,#00b712,#04a714)  !important; 
+	color:#ddd;	
+}
+.container-reader .jumbotron h4 {
+	font-size: 2rem;
+	margin-top:-15px;
+}
+
+.container-reader .content {
+	padding:15px;
+	color:#ddd;
+
+}
+@media screen and (max-width:689px) {
+	.content h4 {
+		font-size: 8px !important;
+	}
+	.content p{
+		font-size:12px !important;
+	}
+
+}
