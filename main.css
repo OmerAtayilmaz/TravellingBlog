@@ -488,6 +488,12 @@ body {
 
 }
 @media screen and (max-width:689px) {
+	.container-reader{
+		position:fixed;
+		top:100px;
+		left:0;
+		width: 100%;
+	}
 	.content h4 {
 		font-size: 8px !important;
 	}
