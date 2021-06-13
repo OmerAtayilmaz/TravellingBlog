@@ -1,4 +1,4 @@
-1-Font Awesome ile navbara icon ekle
+1-Font Awesome ile navbara icon ekle+++++++++++++++
 2-Join Us sayfalarını ekle!
 3-Slider'ı responsive yap - mediaQuery ile-
 4-Sliderdaki buttonlara scroll ekle

@@ -1,3 +1,6 @@
+  
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
  :root{
     --bg-theme-dark:var(#00b712);
     --bg-theme:var(#52c234);
@@ -8,8 +11,12 @@
     --bg-black:#222;
 
 }
- 
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+body {
+    font-family: 'Open Sans', sans-serif !important;
+	margin-top: 50px !important;
+}
+
 ::-webkit-scrollbar{
     width: 7px;
 }
@@ -22,10 +29,6 @@
     background:#fff;
 }
 
-body {
-    font-family: 'Open Sans', sans-serif !important;
-    margin-top: 50px !important;
-}
 /*Navbar*/
 .navbar-dark{
     background: var(--bg-black) !important;
@@ -33,8 +36,43 @@ body {
 
 .nav-link{
     color:var(--text-color) ;
+	
 }
+.nav-item{
+	margin-right: 1rem !important;;
+}
+.nav-item a{
+	color:#fff !important;
+	display: block;
 
+}
+.navbar-nav .dropdown-menu a{
+	color:#333 !important;
+}
+@media screen and (max-width:768px){
+	.nav-item a{
+		text-align: center;
+		
+	}
+
+	.navbar-nav li {
+		background-color: #333 !important;
+		border-radius: 0.5rem 0;
+		margin:5px 0;
+	}
+	.navbar-nav .dropdown-menu{
+		background-color: #333;
+		border:none;
+	}
+
+	.navbar-nav .dropdown-menu .dropdown-item{
+		background-color: #fff !important;
+		padding:0.8em 0;
+		border-radius: 1em;
+		margin:0.5em;
+	}
+
+}
 /*Slider*/
 .carousel-container{
     background-image:linear-gradient(to right,#00b712,#00b712)  !important; 
@@ -153,3 +191,4 @@ body {
 	font-size: 1.2em;
 	font-weight: 500;
 }
+
