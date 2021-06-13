@@ -267,7 +267,7 @@
                                 </li>
                             </ul>
                             <hr class="my-2 bg-white">
-                            <a href="#" class="btn btn-success btn-block py-2 px-5" id="package-free">
+                            <a href="#" data-toggle="modal" data-target="#pricemodal" class="btn btn-success btn-block py-2 px-5" id="package-free">
                                 Join Us
                             </a>
                         </div>
@@ -365,17 +365,39 @@
         </div>
     </section>
    
+    <div class="modal show" id="pricemodal">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                 <span class="text-muted">Pay Invoice</span>
+                </div>
+                <div class="modal-body">
+                
+                    
+
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
 
     <!--About me-->
     <!--Contact us-->
+    <!--map-->
+
     <!--Footer-->
 <section id="contact">
     <footer id="footer" class="pt-5 px-3">
+    
         <div id="contact_us">
             <div class="py-3 px-2">
                 <h5 class="text-uppercase font-oswald font-size-16 text-muted">Location</h5>
                 <h1 class="text-uppercase font-staat font-size-34">Contact Me</h1>
             </div>
+            <hr>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d204617.76602341208!2d34.388819471277124!3d36.742908190727206!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1527f4a4c0be6e9f%3A0x4dbef2b1f81e7d77!2sMersin%2C%20Akdeniz%2FMersin!5e0!3m2!1sen!2str!4v1623609301276!5m2!1sen!2str" width="100%" height="400" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
             <div class="row py-5">
                 <div class="col-sm-6 py-4 px-4">
                     <h6 class="text-uppercase font-ram font-size-16 text-dark">Ömer Atayilmaz lnc.</h6>
@@ -423,5 +445,7 @@
 </section>
 <script src="main.js">
 </script>
+
+
 </body>
 </html>

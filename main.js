@@ -29,3 +29,4 @@ readBtn.addEventListener('click',function(){
 closeReaderBtn.addEventListener('click',function(){
     reader.classList.toggle("d-none");
 }); 
+

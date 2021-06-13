@@ -3,7 +3,11 @@
 -Slider'ı responsive yap - mediaQuery ile-+++++++++
 -Whatsabı import et++++++++++
 -Cardlardaki readmore tıklandıktan sonra responsive bir şekilde makale görünsün++++++++++++++++++++
+-Map ekle*Gelişmiş*+++++++++++++++++++++++++
+
+---------------------------------Daha sonra eklenecekler--------------------
+-Veritabanından CRUD işlemleri
+    -Blog paylaş ve CRUD işlemleri yap
+
 -Travelling packagesta pricing kısmı açılır ve kart bilgilerini girersin.
--Map ekle*Gelişmiş*
--ContactUS'a tıklandığında mail açılsın.
 -NodeJS ile bütünleştir!
